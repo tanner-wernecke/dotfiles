@@ -61,5 +61,7 @@
 [include]
   path = ~/.gitconfig.local
 [user]
-  name = Z
-  email = mattz@hey.com
+  name = Tanner Wernecke
+  email = twernecke@wshein.com
+[commit]
+  template = ~/.gitmessage

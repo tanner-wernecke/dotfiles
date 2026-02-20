@@ -59,7 +59,7 @@ done
 # Symlink shell configs from root
 echo ""
 echo "Setting up shell config symlinks..."
-for file in zshrc aliases gitconfig gemrc bash_env gitignore_global p10k.zsh tmux.conf; do
+for file in zshrc aliases gitconfig gemrc bash_env gitignore_global p10k.zsh tmux.conf gitmessage; do
     if [ -f "$DOTFILES_DIR/$file" ]; then
         create_symlink "$DOTFILES_DIR/$file" "$HOME/.$file"
     fi
